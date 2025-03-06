@@ -9,7 +9,7 @@ export default function ListaProdutos() {
       <h2>Desserts</h2>
       <div>
         {produtos.map((produto) => {
-          return <Produto key={produto.id}  image={produto.image.mobile} category={produto.category} name={produto.name} price={produto.price}  />
+          return <Produto key={produto.id}  image={produto.image.thumbnail} category={produto.category} name={produto.name} price={produto.price}  />
         })}
       </div>
     </section>
