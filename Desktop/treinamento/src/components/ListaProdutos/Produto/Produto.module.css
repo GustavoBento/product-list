@@ -1,0 +1,46 @@
+@import "../../../styles/cores.css";
+
+.card {
+  padding: 20px 0;
+}
+
+.container__image {
+  display: inline-block;
+  position: relative;
+}
+
+.card img {
+  display: block;
+  max-width: 100%;
+  border-radius: 7px;
+}
+
+.add__cart {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  background-color: #ffffff;
+  border: 1px solid var(--rose900);
+  border-radius: 50px;
+  padding: 10px 20px;
+  top: -20px;
+  margin: 0 auto;
+}
+
+.category {
+  color: var(--rose400);
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.price {
+  color: var(--red);
+  font-size: 18px;
+  font-weight: 500;
+}

@@ -5,11 +5,11 @@ import Produto from "./Produto/produto";
 export default function ListaProdutos() {
   
   return (
-    <section>
+    <section className={styles.container}>
       <h2>Desserts</h2>
       <div>
         {produtos.map((produto) => {
-          return <Produto key={produto.id}  image={produto.image.thumbnail} category={produto.category} name={produto.name} price={produto.price}  />
+          return <Produto key={produto.id}  image={produto.image.mobile} category={produto.category} name={produto.name} price={produto.price}  />
         })}
       </div>
     </section>
